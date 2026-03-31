@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.container {
+  background-color: #6a5acd;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 870px;
+  height: fit-content;
+}
+
+.form-title {
+  text-align: center;
+  color: #6a5acd;
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background-color: white;
+  padding: 12px;
+}
+
+.main-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-table tr td {
+  padding: 10px 5px;
+  vertical-align: middle;
+}
+
+.field-label {
+  color: white;
+  font-weight: bold;
+  font-size: 0.85rem;
+  width: 190px;
+  vertical-align: middle;
+}
+
+.field-value {
+  color: white;
+  vertical-align: middle;
+}
+
+.form-input {
+  background-color: white;
+  color: #000;
+  border: none;
+  padding: 5px 6px;
+  font-size: 0.88rem;
+  width: 210px;
+}
+
+.form-select {
+  background-color: white;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 4px 5px;
+  font-size: 0.85rem;
+  margin-right: 4px;
+}
+
+.form-textarea {
+  background-color: white;
+  color: #000;
+  border: none;
+  padding: 5px;
+  font-size: 0.88rem;
+  width: 255px;
+  height: 90px;
+  resize: vertical;
+}
+
+.hint-text {
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 6px;
+}
+
+.radio-label {
+  color: white;
+  margin-right: 20px;
+  font-size: 0.9rem;
+}
+
+.check-label {
+  color: white;
+  margin-right: 10px;
+  font-size: 0.88rem;
+}
+
+.others-input {
+  background-color: white;
+  color: #000;
+  border: none;
+  padding: 4px 6px;
+  font-size: 0.88rem;
+  width: 160px;
+  margin-left: 4px;
+}
+
+.qual-table {
+  border-collapse: collapse;
+  border: 2px solid white;
+  width: 98%;
+}
+
+.qual-th {
+  border: 1px solid white;
+  padding: 7px 8px;
+  color: white;
+  font-size: 0.82rem;
+  text-align: center;
+  background-color: #6a5acd;
+  font-weight: bold;
+}
+
+.qual-td {
+  border: 1px solid white;
+  padding: 5px 6px;
+  color: white;
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.qual-input {
+  width: 95%;
+  padding: 3px 4px;
+  font-size: 0.82rem;
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+.btn-row {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.form-btn {
+  padding: 5px 18px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: 1px solid #555;
+  background-color: #e0e0e0;
+  font-size: 0.88rem;
+}
